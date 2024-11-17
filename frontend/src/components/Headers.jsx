@@ -16,7 +16,7 @@ const Headers = () => {
             </p>
            </div>
            <div className="py-4">
-          <a href="speciality" className="flex items-center gap-2 bg-white px-6 py-3 rounded-full text-gray-600 text-sm md:text-sm w-fit md:w-fit hover:scale-110 transition-all duration-200">
+          <a href="doctors" className="flex items-center gap-2 bg-white px-6 py-3 rounded-full text-gray-600 text-sm md:text-sm w-fit md:w-fit hover:scale-110 transition-all duration-200">
             Book Appointment
            <img className="w-3 md:w-4" src={assets.arrow_icon} alt="" />
             </a>
