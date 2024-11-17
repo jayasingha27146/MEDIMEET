@@ -4,7 +4,7 @@ import { assets } from '../assets/assets'
 const about = () => {
   return (
     <div>
-        <div className='text-center text-3xl pt-10 font-medium text-primary'>
+        <div className='text-center text-3xl pt-10 font-semibold text-primary'>
           <p>ABOUT <span>OUR </span> SERVICES</p>
         </div>
 
@@ -12,11 +12,11 @@ const about = () => {
               <img className='w-auto md:max-w-[360px]' src={assets.about_image} alt='' />
             
 
-        <div className='flex flex-col justify-center gap-6 md:w-2/4 text-base text-gray-600'>
-          <p>Welcome to Prescripto, your trusted partner in managing your healthcare needs conveniently and efficiently. At Prescripto, we understand the challenges individuals face when it comes to scheduling doctor appointments and managing their health records.</p>
-          <p>Prescripto is committed to excellence in healthcare technology. We continuously strive to enhance our platform, integrating the latest advancements to improve user experience and deliver superior service. Whether you're booking your first appointment or managing ongoing care, Prescripto is here to support you every step of the way.</p>
+        <div className='flex flex-col justify-center gap-6 md:w-2/3 text-base text-gray-600'>
+          <p>Welcome to MediMeet, your trusted partner in simplifying healthcare management. At MediMeet, we understand the challenges individuals face when it comes to scheduling doctor appointments and keeping track of health records. Our mission is to make healthcare accessible, convenient, and stress-free for everyone.</p>
+          <p>MediMeet is dedicated to excellence in healthcare technology. We are constantly evolving our platform, integrating the latest innovations to enhance user experience and provide top-tier service. Whether you’re scheduling your first appointment or managing ongoing care, MediMeet is here to support you at every step of your healthcare journey.</p>
           <b className='text-primary text-2xl'>Our Vision</b>
-          <p>Our vision at Prescripto is to create a seamless healthcare experience for every user. We aim to bridge the gap between patients and healthcare providers, making it easier for you to access the care you need, when you need it.</p>
+          <p>Our vision at MediMeet is to create a seamless healthcare experience for every user. We strive to bridge the gap between patients and healthcare providers, ensuring you can access the care you need, whenever you need it, with ease and confidence.</p>
         </div>
         </div>   
            
