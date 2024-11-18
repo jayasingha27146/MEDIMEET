@@ -4,7 +4,7 @@ import { assets } from '../assets/assets'
 const contact = () => {
   return (
     <div>
-        <div className='text-center text-3xl pt-10 text-primary font-medium'>
+        <div className='text-center text-3xl pt-10 text-primary font-semibold'>
           <h1>FEEL FREE TO CONTACT US</h1>
         </div>
 
