@@ -39,7 +39,7 @@ return (
                         <div className='absolute top-0 right-0 pt-14 text-base font-medium text-gray-600 z-20 hidden group-hover:block'>
                                 <div className='min-w-48 bg-green-50 rounded flex flex-col gap-4 p-4'>
                                         <p onClick={()=>navigate('myprofile')} className='hover:text-black cursor-pointer '>MY Profile </p>
-                                        <p onClick={()=>navigate('myappoinments')} className='hover:text-black cursor-pointer '>MY Appoinment </p>
+                                        <p onClick={()=>navigate('myappoinment')} className='hover:text-black cursor-pointer '>MY Appoinment </p>
                                         <p onClick={()=>settoken(false)} className='hover:text-black cursor-pointer '>Logout</p>
                                 </div>
                         </div>
